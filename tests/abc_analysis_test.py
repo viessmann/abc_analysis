@@ -5,7 +5,7 @@ Created on Wed Mar  6 10:52:59 2019
 @author: ghlt@viessmann.com
 """
 
-from pythena.abc_analysis import abc_analysis, abc_clean_data, abc_curve
+from abc_analysis.abc_analysis import abc_analysis, abc_clean_data, abc_curve
 
 import pandas as pd
 import pytest
