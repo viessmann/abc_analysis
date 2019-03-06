@@ -2,7 +2,7 @@
 
 Performs and visualizes an ABC analysis. This package is a Python implementation of the R package [**ABCanalysis**][abcanalysis-link].
 
-[abcanalysis-link]: https://cran.r-project.org/web/packages/ABCanalysis/index.html
+[abcanalysis-link]: https://CRAN.R-project.org/package=ABCanalysis
 
 ## Where to get it
 The source code is hosted on GitHub at: https://github.com/viessmann/abc_analysis
