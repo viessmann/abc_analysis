@@ -23,6 +23,7 @@ setup(name='abc_analysis',
           # Plot saved results of an ABC analysis
           abc_plot(dctAnalysis)
       """,
+      url='https://github.com/viessmann/abc_analysis',
       download_url='https://github.com/viessmann/abc_analysis/archive/v0.1.3.tar.gz',
       classifiers=[
         'Development Status :: 4 - Beta',
