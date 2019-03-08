@@ -6,15 +6,15 @@ def readme():
 
 
 setup(name='abc_analysis',
-      version='0.1.1',
+      version='0.1.2',
       description='ABC analysis with automated limit detection',
       long_description=readme(),
-      download_url='https://github.com/viessmann/abc_analysis/archive/v0.1.1.tar.gz',
+      download_url='https://github.com/viessmann/abc_analysis/archive/v0.1.2.tar.gz',
       classifiers=[
         'Development Status :: 4 - Beta',
         'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
         'Programming Language :: Python :: 3.6',
-        'Topic :: Software Development :: Libraries :: Python Modules'
+        'Topic :: Software Development :: Libraries :: Python Modules',
         'Topic :: Scientific/Engineering',
       ],
       keywords='abc-analysis abc_analysis',
