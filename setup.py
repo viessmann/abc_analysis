@@ -2,14 +2,28 @@ from setuptools import setup, find_packages
 
 
 setup(name='abc_analysis',
-      version='0.1.6',
+      version='0.1.7',
       description='ABC analysis with automated limit detection',
       long_description="""
 Performs and visualizes an ABC analysis with automated limit detection.
 
 This package is a Python implementation of the R package `ABCanalysis <https://CRAN.R-project.org/package=ABCanalysis>`__
+
+**Basic Usage**
+
+.. code-block:: python
+    from abc_analysis import abc_analysis, abc_plot
+    
+    # Perform an ABC analysis on a numeric vector (without plotting)
+    dctAnalysis = abc_analysis([1, 15, 25, 17, 2, 3, 5, 6, 2, 3, 22])
+    
+    # Perform an ABC analysis with plotting
+    dctAnalysis = abc_analysis([1, 15, 25, 17, 2, 3, 5, 6, 2, 3, 22], True)
+    
+    # Plot saved results of an ABC analysis
+    abc_plot(dctAnalysis)
 """,
-      download_url='https://github.com/viessmann/abc_analysis/archive/v0.1.6.tar.gz',
+      download_url='https://github.com/viessmann/abc_analysis/archive/v0.1.7.tar.gz',
       classifiers=[
         'Development Status :: 4 - Beta',
         'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
