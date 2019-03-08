@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 
 setup(name='abc_analysis',
-      version='0.1.3',
+      version='0.1.4',
       description='ABC analysis with automated limit detection',
       long_description="""
       Performs and visualizes an ABC analysis. This package is a Python 
@@ -23,8 +23,7 @@ setup(name='abc_analysis',
           # Plot saved results of an ABC analysis
           abc_plot(dctAnalysis)
       """,
-      url='https://github.com/viessmann/abc_analysis',
-      download_url='https://github.com/viessmann/abc_analysis/archive/v0.1.3.tar.gz',
+      download_url='https://github.com/viessmann/abc_analysis/archive/v0.1.4.tar.gz',
       classifiers=[
         'Development Status :: 4 - Beta',
         'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
