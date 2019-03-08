@@ -9,6 +9,7 @@ setup(name='abc_analysis',
       version='0.1.0',
       description='ABC analysis with automated limit detection',
       long_description=readme(),
+      download_url='https://github.com/viessmann/abc_analysis/archive/v0.1.0.tar.gz',
       classifiers=[
         'Development Status :: 4 - Beta',
         'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
