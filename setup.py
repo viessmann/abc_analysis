@@ -2,14 +2,14 @@ from setuptools import setup, find_packages
 
 
 setup(name='abc_analysis',
-      version='0.1.5',
+      version='0.1.6',
       description='ABC analysis with automated limit detection',
       long_description="""
-      Performs and visualizes an ABC analysis with automated limit detection.
-      
-      This package is a Python implementation of the R package ABCanalysis https://CRAN.R-project.org/package=ABCanalysis
-      """,
-      download_url='https://github.com/viessmann/abc_analysis/archive/v0.1.5.tar.gz',
+Performs and visualizes an ABC analysis with automated limit detection.
+
+This package is a Python implementation of the R package `ABCanalysis <https://CRAN.R-project.org/package=ABCanalysis>`__
+""",
+      download_url='https://github.com/viessmann/abc_analysis/archive/v0.1.6.tar.gz',
       classifiers=[
         'Development Status :: 4 - Beta',
         'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
