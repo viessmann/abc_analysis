@@ -20,3 +20,5 @@ Basic Usage
     
     # Plot saved results of an ABC analysis
     abc_plot(dctAnalysis)
+
+.. image:: https://github.com/viessmann/abc_analysis/blob/master/doc/images/abc_plot.png

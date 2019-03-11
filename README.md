@@ -34,6 +34,10 @@ dctAnalysis = abc_analysis([1, 15, 25, 17, 2, 3, 5, 6, 2, 3, 22], True)
 abc_plot(dctAnalysis)
 ```
 
+<div align="left">
+  <img src="https://github.com/viessmann/abc_analysis/blob/master/doc/images/abc_plot.png"><br>
+</div>
+
 ## Dependencies
 - [pandas](https://pandas.pydata.org): 0.22.0 or higher
 - [NumPy](http://www.numpy.org): 1.14.0 or higher
