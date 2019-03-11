@@ -1,6 +1,8 @@
 # ABC analysis
 
-Performs and visualizes an ABC analysis. This package is a Python implementation of the R package [**ABCanalysis**][abcanalysis-link].
+Performs and visualizes an ABC analysis with automated limit detection. 
+
+This package is a Python implementation of the R package [**ABCanalysis**][abcanalysis-link].
 
 [abcanalysis-link]: https://CRAN.R-project.org/package=ABCanalysis
 
