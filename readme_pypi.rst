@@ -3,7 +3,9 @@ ABC analysis
 
 Performs and visualizes an ABC analysis with automated limit detection. 
 
-This package is a Python implementation of the R package `ABCanalysis <https://CRAN.R-project.org/package=ABCanalysis>`_
+This package is a Python implementation of the R package `ABCanalysis <https://CRAN.R-project.org/package=ABCanalysis>`_.
+
+The package is based on "Computed ABC Analysis for rational Selection of most informative Variables in multivariate Data", PLoS One. Ultsch. A., Lotsch J. (2015) <doi:10.1371/journal.pone.0129767>.
 
 Basic Usage
 ^^^^^^^^^^^
