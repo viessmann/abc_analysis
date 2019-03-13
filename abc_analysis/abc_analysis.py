@@ -172,6 +172,11 @@ def abc_curve(psData):
     dfCurve["Yield"] = f(p)
     dfCurve["Yield"] = dfCurve["Yield"].apply(lambda x: 1 if x > 1 else x)
     dfCurve["Yield"] = dfCurve["Yield"].apply(lambda x: 0 if x < 0 else x)
+    dfCurve["Yield"] = dfCurve["Yield"].fillna(0)
+    
+    if dfCurve["Yield"].sum() == 0:
+        raise ValueError('Could not calculate valid yield. '\
+                         'Is the input vector invalid?')
     
     # calculate derivative of first order
     intRows2 = len(p)

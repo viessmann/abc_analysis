@@ -2,16 +2,19 @@ from setuptools import setup, find_packages
 
 
 setup(name='abc_analysis',
-      version='0.1.19',
+      version='0.1.20',
       project_urls={'Viessmann': 'https://www.linkedin.com/company/viessmann/', 
                     'Source': 'https://github.com/viessmann/abc_analysis'},
       description='ABC analysis with automated limit detection',
       long_description=open('readme_pypi.rst').read(),
-      download_url='https://github.com/viessmann/abc_analysis/archive/v0.1.19.tar.gz',
+      download_url='https://github.com/viessmann/abc_analysis/archive/v0.1.20.tar.gz',
       classifiers=[
-        'Development Status :: 4 - Beta',
+        'Development Status :: 5 - Production/Stable',
+        'Intended Audience :: Science/Research',
         'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
+        'Operating System :: OS Independent',
         'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
         'Topic :: Scientific/Engineering',
       ],
       keywords='abc-analysis abc_analysis Viessmann',

@@ -46,3 +46,7 @@ class TestABC(object):
         dictOutput = abc_curve(psInput)
         fltOutput = round(dictOutput["Curve"]["Yield"].sum(), 6)
         assert fltOutput == 64.784286
+    
+    def test_invalid_input(self):
+        with pytest.raises(ValueError):
+            abc_analysis([0,0,0,0])
