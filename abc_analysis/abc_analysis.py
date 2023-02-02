@@ -160,11 +160,11 @@ def abc_curve(psData):
     x = pd.Series(range(1, intRows + 1)) / intRows
     
     if y.head(1).iloc[0] > 0:
-        y = pd.Series([0]).append(y)
-        x = pd.Series([0]).append(x)
+        y = pd.concat([pd.Series([0]), y])
+        x = pd.concat([pd.Series([0]), x])
     if y.tail(1).iloc[0] < 1:
-        y = y.append(pd.Series([1]))
-        x = x.append(pd.Series([1]))
+        y = pd.concat([y, pd.Series([1])])
+        x = pd.concat([x, pd.Series([1])])
     
     # interpolate with cubic splines and correct interpolation errors
     f = UnivariateSpline(x, y, k=3, s=0)
