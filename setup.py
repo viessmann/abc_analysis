@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 
 setup(name='abc_analysis',
-      version='0.1.21',
+      version='0.1.22',
       project_urls={'Viessmann': 'https://www.linkedin.com/company/viessmann/', 
                     'Source': 'https://github.com/viessmann/abc_analysis'},
       description='ABC analysis with automated limit detection',
