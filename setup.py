@@ -7,7 +7,7 @@ setup(name='abc_analysis',
                     'Source': 'https://github.com/viessmann/abc_analysis'},
       description='ABC analysis with automated limit detection',
       long_description=open('readme_pypi.rst').read(),
-      download_url='https://github.com/viessmann/abc_analysis/archive/v0.1.21.tar.gz',
+      download_url='https://github.com/viessmann/abc_analysis/archive/v0.1.22.tar.gz',
       classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Science/Research',
