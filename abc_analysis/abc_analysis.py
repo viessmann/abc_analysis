@@ -22,7 +22,7 @@ def abc_plot(dctResult, fltSize=6):
     """
 
     # create figure
-    plt.style.use("seaborn-whitegrid")
+    plt.style.use("seaborn-v0_8-whitegrid")
     plt.figure(figsize=(fltSize, fltSize))
     ax = plt.axes()
     ax.set_xlim(0, 1)
